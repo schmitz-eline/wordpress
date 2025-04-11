@@ -1,0 +1,87 @@
+/* Defined weights:
+  * 100: -
+  * 200: -
+  * 300: light
+  * 400: regular
+  * 500: medium
+  * 600: semi-bold
+  * 700: bold
+  * 800: -
+  * 900: -
+ */
+
+:root {
+  font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+}
+
+/* Montserrat */
+@font-face {
+  src: url('/wp-content/themes/dw/resources/fonts/Boldonse-Regular.ttf') format('TrueType');
+  font-family: 'Boldonse';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 900;
+}
+
+/* Montserrat */
+@font-face {
+  src: url('/wp-content/themes/dw/resources/fonts/Comfortaa-Regular.ttf') format('TrueType');
+  font-family: 'Comfortaa';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 900;
+}
+
+/* Montserrat */
+@font-face {
+  src: url('/wp-content/themes/dw/resources/fonts/Comfortaa-Regular.ttf') format('TrueType');
+  font-family: 'Comfortaa';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 800;
+}
+
+/* Montserrat */
+@font-face {
+  src: url('/wp-content/themes/dw/resources/fonts/Comfortaa-Regular.ttf') format('TrueType');
+  font-family: 'Comfortaa';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 700;
+}
+
+/* Montserrat Light */
+@font-face {
+  src: url('/wp-content/themes/dw/resources/fonts/Comfortaa-Regular.ttf') format('TrueType');
+  font-family: 'Comfortaa';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 600;
+}
+
+/* Montserrat */
+@font-face {
+  src: url('/wp-content/themes/dw/resources/fonts/Comfortaa-Regular.ttf') format('TrueType');
+  font-family: 'Comfortaa';
+  font-display: swap;
+  font-style: normal;
+  font-weight: 500;
+}
+
+/* Montserrat */
+@font-face {
+  src: url('/wp-content/themes/dw/resources/fonts/Comfortaa-Regular.ttf') format('TrueType');
+  font-family: 'Comfortaa';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 400;
+}
+
+/* Montserrat */
+@font-face {
+  src: url('/wp-content/themes/dw/resources/fonts/Comfortaa-Regular.ttf') format('TrueType');
+  font-family: 'Comfortaa';
+  font-display: swap;
+  font-style: italic;
+  font-weight: 300;
+}

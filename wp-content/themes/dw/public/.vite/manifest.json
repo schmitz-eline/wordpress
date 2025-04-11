@@ -1,11 +1,19 @@
 {
   "wp-content/themes/dw/resources/css/styles.scss": {
-    "file": "assets/css-D02VhJiN.css",
+    "file": "assets/css-CA_NXMFb.css",
     "src": "wp-content/themes/dw/resources/css/styles.scss",
     "isEntry": true
   },
+  "wp-content/themes/dw/resources/fonts/Boldonse-Regular.ttf": {
+    "file": "assets/Boldonse-Regular-CsFBvfh4.ttf",
+    "src": "wp-content/themes/dw/resources/fonts/Boldonse-Regular.ttf"
+  },
+  "wp-content/themes/dw/resources/fonts/Comfortaa-Regular.ttf": {
+    "file": "assets/Comfortaa-Regular-F0K1qiVV.ttf",
+    "src": "wp-content/themes/dw/resources/fonts/Comfortaa-Regular.ttf"
+  },
   "wp-content/themes/dw/resources/js/main.js": {
-    "file": "assets/js-Q6yDJvxr.js",
+    "file": "assets/js-Bzsld0tX.js",
     "name": "js",
     "src": "wp-content/themes/dw/resources/js/main.js",
     "isEntry": true

@@ -1,0 +1,106 @@
+.trips {
+  display: flex;
+  justify-content: flex-start;
+  gap: 1em;
+  padding: 4rem 32px 4rem;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+
+  &__headline {
+    color: var(--black);
+    font-size: 2rem;
+    margin: 0 auto;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.25em;
+    padding-bottom: 0.5rem;
+  }
+
+  &__container {
+    max-width: var(--grid-container);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    flex-wrap: wrap;
+  }
+}
+
+.trip {
+  width: calc(25% - 16px);
+  position: relative;
+
+  &__fig {
+    display: block;
+    position: relative;
+    height: 0;
+    padding: 60% 0 0 0;
+    margin: 0;
+  }
+
+  &__link {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+
+    &:hover + .trip__card,
+    &:focus + .trip__card {
+      transform: translate3d(0, -4px, 0);
+    }
+  }
+
+  &__img {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  &__card {
+    height: 100%;
+    justify-content: flex-end;
+    position: relative;
+    z-index: 0;
+    background: white;
+    border-radius: 4px;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column-reverse;
+    transition: transform 200ms ease-out;
+  }
+
+  &__head {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 8px;
+    height: 100%;
+    padding: 1em;
+  }
+
+  &__title {
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.5em;
+  }
+
+  &__card {
+    &--placeholder {
+      padding-top: 8px;
+      margin-top: auto;
+      text-decoration: underline;
+    }
+  }
+}

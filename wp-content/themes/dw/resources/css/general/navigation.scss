@@ -1,3 +1,22 @@
-.link {
-  color: red;
+.nav {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+  }
+
+  &__link {
+    font-size: 1rem;
+    text-decoration: none;
+    color: var(--black);
+  }
+
+  &__logo {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
 }

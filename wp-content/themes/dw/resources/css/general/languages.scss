@@ -1,0 +1,18 @@
+.languages {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  &__container {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+  }
+
+  &__link {
+    font-size: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--black);
+  }
+}

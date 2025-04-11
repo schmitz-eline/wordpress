@@ -1,16 +1,27 @@
-<?php /* Template Name: Template "À propos" */ ?>
+<?php /* Template Name: Page "À propos" */ ?>
+
 <?php get_header(); ?>
-    <h2>À propos de moi</h2>
+    <aside>
+        <h2>À propos de moi</h2>
+    </aside>
     <?php 
     // On ouvre "la boucle" (The Loop), la structure de contrôle
     // de contenu propre à Wordpress:
     if(have_posts()): while(have_posts()): the_post(); ?>
 
-        <div><?php the_content(); ?></div>
+        <div><?= get_the_content(); ?></div>
 
-    <?php 
+    <?php
     // On ferme "la boucle" (The Loop):
     endwhile; else: ?>
-        <p>Pas de contenu à afficher.</p>
+    <p>La page est vide.</p>
     <?php endif; ?>
 <?php get_footer(); ?>
+
+
+
+
+
+
+
+
